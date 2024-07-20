@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(156, 223, 240);
+    color:rgb(255, 255, 255);
+    font-family: "Montserrat";
+}
+/* Esta clase corresponde a la barra de navegacion */
+.barra{
+    position: fixed;
+    height: 100%;
+    width:120px;
+    background-color: rgb(131, 219, 241) ;
+    font-size: 12px;
+}
+
+/* Este estilo corresponde a los botones de la barra de navegacion */
+.sidebar-item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color:aliceblue
+}
+/* esto es para cambiar de color cuando el mouse esta encima del boton */
+.sidebar-item:hover{
+    background-color: steelblue;
+}
+a:visited{text-decoration: none;}
+a{ text-decoration: none;}
+
+#main{
+    margin-left: 120px;
+}
+/* esto es el titulo de la pagina */
+header{
+    text-align: center;
+}
+#header-image{
+    max-width: 80%;
+    height: auto;
+}
